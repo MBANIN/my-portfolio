@@ -1,0 +1,395 @@
+/* -----------------------------------------------------HOMEPAGE------------------------------------------------------------ */
+body {
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.backgroundhome {
+    background-image: url("gambar/background.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.logo {
+    margin-right: auto;
+    padding-left: 50px;
+    width: 90px;
+    height: 40px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 96%;
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+  
+nav > a {
+    width: 90px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 30px;
+}   
+
+a:link, a:visited {
+    color: #FFFFFF;
+}
+
+a:hover, a:active {
+    color: #ff0000;
+}
+
+main p {
+    background: -webkit-linear-gradient(#ffffff, #ff0000);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 190px;
+    margin-left: 80px;
+    line-height: 80px;
+    letter-spacing: 8px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.content-footer {
+    margin-right: 30px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.ikon-footer1 {
+    width: 32px;
+    height: 32px;
+    background-image: url(gambar/ikon-instagram.png);
+    background-repeat: no-repeat;
+}
+
+.ikon-footer2 {
+    width: 32px;
+    height: 32px;
+    background-image: url(gambar/ikon-facebook.png);
+    background-repeat: no-repeat;
+}
+
+.ikon-footer3 {
+    width: 32px;
+    height: 32px;
+    background-image: url(gambar/ikon-twitter.png);
+    background-repeat: no-repeat;
+}
+
+/* --------------------------------------------------------ABOUT------------------------------------------------------------ */
+
+.backgroundabout {
+    background-color: #000000;
+}
+
+.content {
+    width: 600px;
+    height: 600px;
+    margin-top: 39px;
+    margin-left: 150px;
+    float: left ;
+}
+
+#title {
+    color: #FFFFFF;
+    font-size: 50px;
+    float: left;
+    width: 400px;
+}
+
+#explanation {
+    color: #FFFFFF;
+    font-size: 17px;
+    text-align: justify;
+    width: 470px;
+    margin-right: 490px;
+    float: left;
+}
+
+.image img{
+    float: right;
+    width: 200px;
+    height: 400px;
+    margin-top: 100px;
+    margin-right: 160px;
+}
+
+/* ------------------------------------------------------CONTACT------------------------------------------------------------ */
+
+.backgroundcontact {
+    background-color: #000000;
+}
+
+.contentcontact {
+    width: 600px;
+    height: 600px;
+    margin-top: 39px;
+    margin-left: 150px;
+    float: left ;
+}
+
+#titlecontact {
+    color: #FFFFFF;
+    font-size: 50px;
+    float: left;
+    width: 400px;
+}
+
+#explanationcontact {
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: justify;
+    width: 470px;
+    margin-right: 490px;
+    float: left;
+    letter-spacing: 3px;
+    line-height: 30px;
+}
+
+.containerform {
+    max-width: 650px;
+    padding: 28px;
+    margin: 0 28px;
+    overflow: hidden;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+.contentform {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.input-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15px;
+}
+
+.input-box:nth-child(2n) {
+    justify-content: end;
+}
+
+.input-box label {
+    width: 95%;
+    margin: 5px 0;
+}
+
+.input-box input {
+    width: 95%;
+    height: 40px;
+    color: #FFFFFF;
+    background-color: #000000;
+    border: none;
+    border-bottom: 2px solid white;
+}
+
+textarea {
+    position: absolute;
+    margin-top: 30px;
+    width: 460px;
+    color: #FFFFFF;
+    background-color: #000000;
+    border: none;
+    border-bottom: 2px solid white;
+}
+
+.button-contact {
+    width: 180px;
+    margin: 15px 0;
+}
+
+.button-contact input {
+    width: 100%;
+    margin-top: 180px;
+    padding: 10px;
+    display: block;
+    color: #ffffff;
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.button-contact input:hover {
+    background-color: #000000;
+    color: #ff0000;
+    border: 2px solid red;
+}
+
+/* -----------------------------------------------------SERVICES------------------------------------------------------------ */
+
+.background-service {
+    background-image: url("gambar/background-servis-6.gif");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.services p {
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.1rem;
+}
+
+.service-content, h3 {
+    color: #ffffff;
+}
+
+.service-heading, h2 {
+    padding-top: 6px;
+    font-size: 40px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: #ffffff;
+}
+.service-heading, h4 {
+    margin-top: 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+.container-service {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.content-service {
+    background-color: #00000099;
+    max-width: 25%;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    align-items: center;   
+    margin-bottom: 30px;
+    cursor: pointer;
+    border-width: 5px;
+    border-style: solid;
+    border-image: linear-gradient(to right, steelblue, darkorchid) 1;
+}
+
+.service-icon img{
+    width: 64px;
+    height: 64px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-service:hover {
+    border-width: 5px;
+    border-style: solid;
+    border-image: linear-gradient(to right, darkorchid, steelblue) 1;
+
+}
+
+@media print{
+    body {
+        background-color: #000000;
+    }
+}
+
+/* -----------------------------------------------------PORTFOLIO------------------------------------------------------------ */
+
+.background-portfolio {
+    background-image: url("gambar/background-portfolio.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.portfolio-heading, h1{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 35px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.content-portfolio p {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+}
+
+.container-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.content-portfolio {
+    width: 350px;
+    height: 400px;
+    padding: 5px;
+    text-align: center;
+    align-items: center;   
+    cursor: pointer;
+    background: -webkit-linear-gradient(#00aaff, #bb00ff);
+}
+
+.portfolio-img1{
+    background-image: url(gambar/web-development-portfolio.png);
+    width: 350px;
+    height: 400px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio-img2{
+    background-image: url(gambar/web-design-portfolio.png);
+    width: 350px;
+    height: 400px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio-img3{
+    background-image: url(gambar/app-development-portfolio.png);
+    width: 350px;
+    height: 400px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-portfolio:hover {
+    background: -webkit-linear-gradient(#8400ff, #00e1ff);
+}
+
+.content-portfolio:hover, .portfolio-img3, .portfolio-img2, .portfolio-img1 {
+    opacity: 0.8;
+}
+
+.content-portfolio:hover p {
+    font-size: 38px;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+
+  
